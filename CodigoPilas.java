@@ -1,4 +1,5 @@
-//Codigo del viny, se encargara de prover las funciones para el codigo de la interfaz
+//Codigo de las funciones de apilar, quitar, vaciar, etc. 
+// Se encargara de prover las funciones para el codigo de la interfaz.
 
 public class CodigoPilas {
     public Node top;
