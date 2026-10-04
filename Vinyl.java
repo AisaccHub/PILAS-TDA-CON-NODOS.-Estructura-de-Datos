@@ -1,4 +1,4 @@
-
+//Establece los datos baase del vinyl como el nombre y el ID
 
 public class Vinyl {
     private int id;

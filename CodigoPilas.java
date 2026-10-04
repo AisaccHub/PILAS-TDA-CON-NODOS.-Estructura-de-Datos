@@ -1,4 +1,4 @@
-
+//Codigo del viny, se encargara de prover las funciones para el codigo de la interfaz
 
 public class CodigoPilas {
     public Node top;
