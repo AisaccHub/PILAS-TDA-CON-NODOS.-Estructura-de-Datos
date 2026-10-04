@@ -1,15 +1,18 @@
-package Front_End;
 
-import Back_End.CodigoPilas;
-import Back_End.Vinyl;
-import Back_End.Node;
+import java.awt.BorderLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
 
-import javax.swing.*;
-import java.awt.*;
+class CodigoDelInterfaz extends JFrame {
+    private final CodigoPilas pila = new CodigoPilas();
 
-public class CodigoDelInterfaz extends JFrame {
-    private CodigoPilas pila = new CodigoPilas();
-    
     private JTextField txtId = new JTextField(5);
     private JTextField txtNombre = new JTextField(10);
     private JTextArea areaPila = new JTextArea(10, 20);
@@ -25,7 +28,7 @@ public class CodigoDelInterfaz extends JFrame {
         panelFormulario.add(new JLabel("ID:"));
         panelFormulario.add(txtId);
         panelFormulario.add(new JLabel("Nombre:"));
-        panelFormulario.add(txtNombre);
+        panelFormulario.add(txtNombre); 
 
         JButton btnPush = new JButton("Apilar (Push)");
         panelFormulario.add(btnPush);
