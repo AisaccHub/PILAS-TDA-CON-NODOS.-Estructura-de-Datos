@@ -1,4 +1,5 @@
-
+//Este codigo traera las partes anteriores para usarlas a traves de una interfaz grafica simple
+//Los imports necesarios para que la Interfaz grafica funcione
 import java.awt.BorderLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -9,7 +10,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
-
+//Aqui se inicia la interfaz grafica
 class CodigoDelInterfaz extends JFrame {
     private final CodigoPilas pila = new CodigoPilas();
 
@@ -29,7 +30,7 @@ class CodigoDelInterfaz extends JFrame {
         panelFormulario.add(txtId);
         panelFormulario.add(new JLabel("Nombre:"));
         panelFormulario.add(txtNombre); 
-
+        //Boton Superior: Boton que apilara los viniles
         JButton btnPush = new JButton("Apilar (Push)");
         panelFormulario.add(btnPush);
         add(panelFormulario, BorderLayout.NORTH);
